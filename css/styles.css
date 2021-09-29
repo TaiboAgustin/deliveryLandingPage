@@ -218,6 +218,27 @@ img {
   display: none;
 }
 
+.button-link {
+  background: none;
+  padding: 0;
+  color: var(--title-color);
+}
+
+.button-link:hover {
+  background-color: transparent;
+}
+
+.button-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+}
+
+.button__icon {
+  font-size: 1.5rem;
+}
+
 /*about*/
 .about__container {
   gap: 2.5rem;
@@ -234,5 +255,43 @@ img {
 
 .security__description {
   text-align: center;
+}
+
+/*services*/
+.services__container {
+  padding-top: 1rem;
+}
+
+.services__data {
+  display: grid;
+  row-gap: 1rem;
+  background-color: var(--container-color);
+  box-shadow: 0 2px 6px hsla(var(--hue), 100%, 15%, 0.15);
+  padding: 2rem 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.services__img {
+  width: 135px;
+  justify-self: center;
+  margin-bottom: var(--mb-0-5);
+}
+
+/*app*/
+.app__container {
+  gap: 2.5rem;
+}
+
+.app__data {
+  text-align: center;
+}
+
+.app__description {
+  margin-bottom: var(--mb-1-5);
+}
+
+.app__button {
+  margin-top: var(--mb-1-5);
 }
 /*# sourceMappingURL=styles.css.map */
